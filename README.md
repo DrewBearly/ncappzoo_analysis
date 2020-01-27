@@ -19,7 +19,7 @@
 
 ### Command to Install Required Packages
 ```
-$ sudo pip3 install numpy pandas scikit-learn scipy statsmodels PyGithub
+$ sudo pip3 install numpy pandas scikit-learn scipy statsmodels PyGithub plotly
 ```
 
 ## Using scripts to build database

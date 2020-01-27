@@ -27,3 +27,6 @@ yarn-debug.log*
 yarn-error.log*
 
 keys.txt
+
+# vscode specific ignores
+.vscode
