@@ -69,6 +69,8 @@ def construct_new_ref(old_file_path, new_file_path, kind):
     today = '-'.join(str(today.split('.')[0]).split(':'))
     file_name = 'master_tables/updated_' + kind + '_' + today
     csv_string = new_master.to_csv(file_name + '.csv', index=False)
+    alt_file_name = 'current/' + kind + '.csv'
+    csv_string = new_master.to_csv(alt_file_name, index=False)
     return file_name + '.csv'
     
 if __name__ == "__main__":
